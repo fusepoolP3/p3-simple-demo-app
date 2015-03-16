@@ -1,5 +1,4 @@
 var POIData = [];
-// var currentLocation = ol.proj.transform([10.947157085473691, 46.01793310172717], 'EPSG:4326', 'EPSG:3857');
 var currentLocation = [10.947157085473691, 46.01793310172717]
 
 $(document).ready(function() {
@@ -33,7 +32,6 @@ function initInputs() {
 function initMap() {	
     window.mc = new MapController();
     mc.initMap("map");
-    // mc.addBaseLayer("MapQuest", "MapQuest");
     mc.addBaseLayer("OSM", "OSM");
     mc.addVectorLayer("first");
     mc.addVectorLayer("marker");
@@ -70,9 +68,9 @@ function initPointController() {
             true, // deletablePoints
             false, // havingStatus
             [], // statusIcons
-            "http://www.veryicon.com/icon/png/System/Fugue/information%20button.png", // deleteIcon
+            "images/info.png", // deleteIcon
             info, // deletePointFunction
-            "http://arnirman.com/css/images/view_icon.png", // viewIcon
+            "images/show.png", // viewIcon
             focusToMarker // viewPointFunction
             );
 }

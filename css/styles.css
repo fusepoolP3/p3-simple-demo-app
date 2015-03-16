@@ -39,13 +39,6 @@ legend {
     right: 0px;
 }
 
-.logout {
-    /* teporary... */
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
 .no-select {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

@@ -9,9 +9,9 @@ function PointController(mapController, renamablePoints, draggableMarkers, delet
                                                 "images/icons/status/2.png",
                                                 "images/icons/status/3.png",
                                                 "images/icons/status/4.png"]);
-    deleteIcon = setDefaultValue(deleteIcon, "http://www.diningsmart.com/static/images/admin/delete.png");
+    deleteIcon = setDefaultValue(deleteIcon, "images/info.png");
     deletePointFunction = setDefaultValue(deletePointFunction, function(){});
-    viewIcon = setDefaultValue(viewIcon, "http://arnirman.com/css/images/view_icon.png");
+    viewIcon = setDefaultValue(viewIcon, "images/show.png");
     viewPointFunction = setDefaultValue(viewPointFunction, function(){});
     
     this.mc = mapController;
