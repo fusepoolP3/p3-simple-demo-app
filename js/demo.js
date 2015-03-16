@@ -132,7 +132,6 @@ function drawDepots(container){
 				+ '	FILTER(langMatches(lang(?eventCategory), "it")) '
 				+ '	FILTER(langMatches(lang(?eventDescription), "it")) '
 				+ '	} '
-				// + '  FILTER ( ( ?lat >= 46.20 && ?lat <= 46.50 ) && ( ?long >= 11.50 && ?long <= 11.90 ) ) '
 				+ '  FILTER ( ( ?lat >= ' + (currentLocation[1]-0.05) +' && ?lat <= ' + (currentLocation[1]+0.05) +' ) '
 				+ ' && ( ?long >= ' + (currentLocation[0]-0.05) + ' && ?long <= ' + (currentLocation[0]+0.05) + ' ) ) '
 				+ '} '

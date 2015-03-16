@@ -1,7 +1,7 @@
 # p3-simple-demo-app
 A simple demo app that shows pubs, restaurants, pharmacies, accommodations, museums and - optionally - events in Trentino and Tuscany regions.
 You can click the location you are interested in to see what can be found nearby. To use event data from a specific resource, use the “events” attribute in the URL in which provide the URI of the resource:
-<app URL>/?events=http://sandbox.fusepool.info:8181/ldp/demo/wr-ldpc/Trentino-Events/events-xml-xml-transformed
+**app URL**/?events=http://sandbox.fusepool.info:8181/ldp/demo/wr-ldpc/Trentino-Events/events-xml-xml-transformed
 
 It uses the following SPARQL endpoint: http://sandbox.fusepool.info:8181/sparql/select
 
