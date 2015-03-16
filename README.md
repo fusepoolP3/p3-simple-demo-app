@@ -50,8 +50,8 @@ ORDER BY ?name
 
 ...where:
 * the last FROM clause is used only if a resource URI is provided in the query string (the other four resource URIs are static)
-* _eventStart_** and _eventEnd_** uses exactly what is typed to the input fields on the top left corner
-* _lat_** and _long_** come from the position of the marker on the map
+* **_eventStart_** and **_eventEnd_** uses exactly what is typed to the input fields on the top left corner
+* **_lat_** and **_long_** come from the position of the marker on the map
 
 ---
 
